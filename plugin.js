@@ -516,6 +516,7 @@ select.plugin-select-airy {
         // reset the value of the lang select box and state box
         selEl.val(languageSel);
         stateEl.val(state);
+        
 
         // Get ref to our top region so we can query stuff
         var regionEl = $('.' + this.id + '-composebox-topregion');
